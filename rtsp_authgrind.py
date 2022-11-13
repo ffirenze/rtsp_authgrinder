@@ -342,7 +342,7 @@ def test_auth_and_run():
 					perform_rtsp_auth(user, password, creator)
 			print "End of run with Digest Auth..."
 	else:
-		print "The RTSP service at: " + IP + ":" + PORT + " allows unauthorized access and does not need a username/password"
+		print "The RTSP service at: " + IP + ":" + str(PORT) + " allows unauthorized access and does not need a username/password"
 
 
 if __name__ == '__main__':
